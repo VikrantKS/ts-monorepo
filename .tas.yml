@@ -2,8 +2,7 @@ postMerge :
   preRun: 
     command:
       - pnpm install
-      - pnpm run -r clean
-      - pnpm run -r build
+
   subModules:    
       - name: jest-babel
         runPreRunEveryTime: true
